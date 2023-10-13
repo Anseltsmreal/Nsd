@@ -79,11 +79,7 @@ Tanyakan apa saja kepada AI.
 
 *(DALL-E)*
 Cmd: ${prefix}img
-Membuat gambar dari teks
-
-*(Source Code Bot)*
-Cmd: ${prefix}sc
-Menampilkan source code bot yang dipakai`)
+Membuat gambar dari teks`)
           break;
         case "ai": case "openai": case "chatgpt": case "ask":
           try {
@@ -138,7 +134,7 @@ Menampilkan source code bot yang dipakai`)
         }
           break;
           case "sc": case "script": case "scbot":
-           m.reply("Bot ini menggunakan script dari https://github.com/Sansekai/Wa-OpenAI");
+           m.reply("Oh Maaf");
           break
         default: {
           if (isCmd2 && budy.toLowerCase() != undefined) {
